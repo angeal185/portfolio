@@ -154,6 +154,12 @@ const tpl = {
     return x('div', {class:'list-group mb-4'},
       x('div', {class:'list-group-item active'}, str)
     )
+  },
+  head_card(str){
+    return x('div', {class: 'card mb-4'},
+      x('div', {class: 'card-body'},
+        x('h4', str))
+    )
   }
 }
 

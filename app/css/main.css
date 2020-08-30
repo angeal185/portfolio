@@ -143,49 +143,8 @@ body{
     transition: color .5s;
 }
 
-.nav-img{
-  margin-right: 1rem;
-  height: 3rem;
-  cursor: pointer;
-      border-radius: 50%;
-}
-
 .nav-lnk:hover{
     color: #ddd;
-}
-
-.cat-info{
-    text-align: right;
-}
-
-.cat-sub{
-
-}
-
-.cat-btn{
-  height: 2rem;
-float: right;
-margin-top: 1rem;
-}
-
-.cat-ico{
-  margin-right: 1rem;
-  cursor: pointer;
-  font-size: .8rem;
-}
-
-.cat-img {
-    height: 3rem;
-    border-radius: 4px;
-    margin-bottom: .5rem;
-    margin-right: 1.5rem;
-}
-
-.min-img {
-    height: 1.5rem;
-    border-radius: 4px;
-    margin-bottom: .5rem;
-    margin-right: 1rem;
 }
 
 .rs-btn{

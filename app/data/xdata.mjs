@@ -3,7 +3,7 @@ const xdata = {
   default:{
     title: 'Portfolio',
     version: '1.0.0', // don't delete me
-    origin: 'http://localhost:8000',
+    origin: 'https://angeal185.github.io',
     params: true,
     error: '/error',
     base_path: '/dashboard',
