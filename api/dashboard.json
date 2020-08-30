@@ -36,5 +36,22 @@
     "git_url": "git://github.com/angeal185/sicarii.git",
     "size": 1045,
     "language": "JavaScript"
+  }],
+  "favorite_animations": [{
+    "title": "fireflies",
+    "url": "/animated-ajax-carosel-portfolio/app/img/fireflies.PNG",
+    "link": "/js-canvas-animations/fireflies"
+  }, {
+    "title": "orb attract",
+    "url": "/animated-ajax-carosel-portfolio/app/img/orb-attract.PNG",
+    "link": "/js-canvas-animations/orb-attract"
+  }, {
+    "title": "animated canvas bubbles",
+    "url": "/animated-ajax-carosel-portfolio/app/img/animated-canvas-bubbles.PNG",
+    "link": "/js-canvas-animations/animated-canvas-bubbles"
+  }, {
+    "title": "particle animation",
+    "url": "/animated-ajax-carosel-portfolio/app/img/particle-animation.PNG",
+    "link": "/js-canvas-animations/particle-animation"
   }]
 }
