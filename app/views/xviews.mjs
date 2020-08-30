@@ -76,8 +76,14 @@ const xviews = {
         return console.error(err);
       }
 
-      let recent_div = x('div', {class: 'row'}),
+
+      let nav_row = x('div', {class: 'row mb-4 justify-content-center'}),
+      recent_div = x('div', {class: 'row'}),
       favorite_div = x('div', {class: 'row'});
+
+      for (let i = 0; i < data.nav.length; i++) {
+        nav_row.append(tpl.dash_card(data.nav[i],router))
+      }
 
       for (let i = 0; i < res.recent_works.length; i++) {
         recent_div.append(tpl.repo_tpl(res.recent_works[i]));
@@ -88,6 +94,7 @@ const xviews = {
       }
 
       item.append(
+        nav_row,
         tpl.head_card('Recent works'),
         recent_div,
         tpl.head_card('Favorite works'),

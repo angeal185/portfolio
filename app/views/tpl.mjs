@@ -160,6 +160,22 @@ const tpl = {
       x('div', {class: 'card-body'},
         x('h4', str))
     )
+  },
+  dash_card(item, router){
+    return x('div', {class:'col-6 col-lg-3'},
+      x('div', {
+          class:'card sh-95 cp mb-4 text-center',
+          onclick(){
+            router.rout('/'+ item.title)
+          }
+        },
+        x('div', {class:'card-body'},
+          x('h3', {class: 'link-txt capital'},item.title
+          ),
+          x('h6', item.description)
+        )
+      )
+    )
   }
 }
 

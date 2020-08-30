@@ -51,7 +51,26 @@ const xdata = {
   },
   dashboard: {
     msg: 'dashboard page',
-    url: "./api/dashboard.json"
+    url: "./api/dashboard.json",
+    nav: [{
+      title: 'works',
+      description: 'public works portfolio'
+    }, {
+      title: 'skills',
+      description: 'My skills list'
+    }, {
+      title: 'about',
+      description: 'About me'
+    }, {
+      title: 'resume',
+      description: 'My resume'
+    }, {
+      title: 'blog',
+      description: 'My blog'
+    }, {
+      title: 'links',
+      description: 'My portfolio related links'
+    }]
   },
   about: {
     msg: 'About',
